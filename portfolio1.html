@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio1.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="text-with-gif">
+            <h4 class="navbar-brand"> Welcome To My Portfolio 
+               
+            </h4>
+        </div>
+           <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="navitem ">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="navitem">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="navitem">
+                        <a class="nav-link" href="#services">Projects</a>
+                    </li>
+                    
+                    <li class="navitem">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+     <!--<section class="bgimage" id="home">-->
+         <div class="portfolio">
+           <!-- <div class="row">-->
+            
+                <h2 class="tittle"> <span style="color: rgb(158, 198, 198);">Hi, it's me Boomindhra</span></h2>
+                <p class="desc">I am a front-end developer</p>
+                <h3><span style="color: antiquewhite;">Skills</span></h3>
+                <ul class="skills-list">
+                    <li>
+                        <img src="./jslogo.jpeg" alt="JavaScript Logo">
+                        JavaScript
+                    </li>
+                    <li>
+                        <img src="./javalogo.jpeg" alt="Java Logo">
+                        Java
+                    </li>
+                    <li>
+                        <img src="./SQLlogo.jpeg" alt="SQL Logo">
+                        SQL
+                    </li>
+                    <li>
+                        <img src="./htmllogo.jpeg" alt="HTML Logo">
+                        HTML
+                    </li>
+                    <li>
+                        <img src="./csslogo.jpeg" alt="CSS Logo">
+                        CSS
+                    </li>
+                </ul>
+            
+            
+            <!-- </div>-->
+            </div>
+     <!--</section>-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.jpeg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p style="color: aliceblue;" class="about"> 
+                        A fresh MCA graduate with a strong foundation in <span style="color: rgb(228, 96, 14);" class="above1">JAVA, HTML, 
+                            CSS, SQL, </span> and basics knowledge of <span style="color: rgb(228, 96, 14);" class="above1">JAVASCRIPT</span>  with a passion for 
+creating user-friendly web applications. Successfully completed 
+several projects as part of the coursework, demonstrating proficiency 
+in various technologies and frameworks. Eager to learn new skills and 
+contribute to a dynamic team of software engineers and adept at 
+learning new technologies quickly.
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul style="color: aliceblue;">
+                                <li>Name: Boomindhra R.N</li>
+                                <li>Age: 23</li>
+                                <li>passion: Web Developer</li>
+
+                            </ul>
+                        <!--</div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: David Parker</li>
+                                <li>Age: 28</li>
+                                <li>Occupation: Web Developer</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        </p>
+                    </div>-->
+                </div>
+            </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">PROJECTS</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="DRIVER">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4  class="card-title mt-3" > <span style="color: rgb(208, 208, 202);">DRIVER DROWSINESS DETECTION</span></h4>
+                            <p class="card-text mt-3">• Using HOG FEATURES AND ENSEMBLE CLASSIFIER PYTHON OpenCV and PANDAS libraries for DATA Extraction and Manipulation.</p>
+
+                             <p>   • Drowsiness can be detected with an accuracy of 97%.
+                             
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="AOT">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3"><span style="color: rgb(210, 210, 201);">IOT BASED HOME AUTOMATION USING AWS</span></h4>
+                            <p class="card-text mt-3">• Using an ESP32 USB micro controller connected through an AWS cloud and control all devices in home.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                 <section id="contact">
+                    <h1 class="text-center">CONTACT ME</h1>
+                    <div class="frm">
+                    <form action="mailto:indhran1809@gmail.com" method="post" enctype="text/plain">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <button type="submit">Send</button>
+                    </div> 
+                </section>
+</body>
+</html>
